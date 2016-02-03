@@ -143,7 +143,7 @@ public class SkookumScript : ModuleRules
             var dllUrl = libUrlBase + dllFileName;
             try
             {
-              if(!Directory.Exists(dllDirPath))
+              if (!Directory.Exists(dllDirPath))
               {
                 Directory.CreateDirectory(dllDirPath);
               }
